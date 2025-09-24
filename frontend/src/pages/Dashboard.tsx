@@ -25,7 +25,7 @@ interface ChamadoRecente {
   titulo: string;
   status: string;
   prioridade: string;
-  createdAt: string;
+  dataCriacao: string;
   tags?: Tag[]; // Corrigido para ser um array de objetos Tag
 }
 
@@ -206,7 +206,7 @@ export default function Dashboard() {
                   <div className="flex-1">
                     <h4 className="font-medium">{chamado.titulo}</h4>
                     <p className="text-sm text-muted-foreground">
-                      {new Date(chamado.createdAt).toLocaleDateString('pt-BR')}
+                      {new Date(chamado.dataCriacao).toLocaleDateString('pt-BR')}
                     </p>
                     {chamado.tags && chamado.tags.length > 0 && (
                       <div className="flex gap-1 mt-2">
