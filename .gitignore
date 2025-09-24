@@ -1,0 +1,13 @@
+# Dependências de módulos
+node_modules/
+
+# Arquivos de log e cache do NestJS
+dist/
+.cache/
+npm-debug.log*
+
+# Variáveis de ambiente (SEMPRE mantenha isso privado)
+.env
+backend/.env
+frontend/.env
+frontend/.env.development
