@@ -75,11 +75,15 @@ export default function Register() {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <div className="mx-auto w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
-            <Ticket className="w-6 h-6 text-primary-foreground" />
+            <img 
+              src="/public/logo-alamo.png" 
+              alt="Logo Álamo Tickets" 
+              className="w-25 h-25 object-contain p-0.8 rounded-lg" 
+            />
           </div>
           <CardTitle className="text-2xl">Criar Conta</CardTitle>
           <CardDescription>
-            Crie sua conta no Sistema de Gestão de Chamados
+            Crie sua conta Álamo Tickets
           </CardDescription>
         </CardHeader>
         <CardContent>

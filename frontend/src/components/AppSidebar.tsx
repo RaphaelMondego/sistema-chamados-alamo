@@ -55,7 +55,11 @@ export function AppSidebar() {
       <SidebarHeader className="border-b border-sidebar-border p-4">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-            <Ticket className="w-5 h-5 text-primary-foreground" />
+            <img 
+              src="/public/logo-alamo.png" 
+              alt="Logo Álamo Tickets" 
+              className="w-25 h-25 object-contain p-0.8 rounded-lg" 
+            />
           </div>
           {!collapsed && (
             <div>

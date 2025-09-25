@@ -70,9 +70,13 @@ export default function Login() {
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
           <div className="mx-auto w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
-            <Ticket className="w-6 h-6 text-primary-foreground" />
+            <img 
+              src="/public/logo-alamo.png" 
+              alt="Logo Álamo Tickets" 
+              className="w-25 h-25 object-contain p-0.8 rounded-lg" 
+            />
           </div>
-          <CardTitle className="text-2xl">Entrar no SGC</CardTitle>
+          <CardTitle className="text-2xl">Álamo Tickets</CardTitle>
           <CardDescription>
             Sistema de Gestão de Chamados
           </CardDescription>
