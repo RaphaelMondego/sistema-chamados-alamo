@@ -3,8 +3,8 @@ export interface User {
   nome: string;
   email: string;
   papel: 'admin' | 'user';
-  createdAt: string;
-  updatedAt: string;
+  dataCriacao: string;
+  dataAtualizacao: string;
 }
 
 export interface Chamado {
@@ -16,8 +16,8 @@ export interface Chamado {
   tags: string[];
   usuarioId: string;
   usuario?: User;
-  createdAt: string;
-  updatedAt: string;
+  dataCriacao: string;
+  dataAtualizacao: string;
 }
 
 export interface ChamadoForm {
